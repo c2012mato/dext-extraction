@@ -89,10 +89,10 @@ class Configs:
     CURRENT_SCRIPT_FOLDER = os.getcwd()
     TMP_FOLDER = os.path.join(CURRENT_SCRIPT_FOLDER, "tmp")
 
-    BIGQUERY_DATASET = "hubdoc_dext_data"
-    BIGQUERY_PROJECT_ID = "bigquery-production-309309"
+    BIGQUERY_DATASET = "dataset"
+    BIGQUERY_PROJECT_ID = "bigquery-production-bigqueryproject"
 
-    PRACTICE_ID = 'QWNjb3VudC04MjY0NDc='
+    PRACTICE_ID = 'DEXT_PRACTICE_ID='
 
 
 class ReceiptBankSession(requests.Session):
